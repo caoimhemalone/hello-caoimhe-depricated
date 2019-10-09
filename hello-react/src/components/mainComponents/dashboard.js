@@ -2,7 +2,7 @@ import React from 'react';
 import Clock from './time';
 import Quote from './quote';
 import Calendar from './date';
-//import Weather from './weather';
+import Weather from './weather';
 
 
 
@@ -11,7 +11,7 @@ function Dash() {
     <div className="dash-wrapper">
       <div className="top">
         <section className="date"><Calendar/></section>
-        <section className="weather"></section>
+        <section className="weather"><Weather/></section>
       </div>
       <div className="mainInfo">
 	      <section className="time"><Clock/>
