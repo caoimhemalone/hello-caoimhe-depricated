@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+//import ReactDOM from 'react-dom';
 import LatLong from './lat_long';
 import DisplayTemp from './displaytemp'
 import OpenWeatherAPI from './weather_api'

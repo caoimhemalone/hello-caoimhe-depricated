@@ -10,10 +10,10 @@ html, body {
 	width: 100vw;
 }
 body {
-	background-image: url("../../Assets/images/123365.jpg");
+	//background-image: url("../../Assets/images/bkg_11.jpg");
 	//background-size: cover;
 	background-repeat: no-repeat;
-	padding: 3em 3em 0 3em;
+	//padding: 3em 3em 0 3em;
 	color: $white;
 	background-position: center;
 	font-family: 'Nunito', sans-serif;
@@ -69,4 +69,16 @@ section {
 	font-size: 2em;
 	height: 100%;
 	position: relative;
+}
+
+.dash-wrapper {
+	padding: 3em 3em 0 3em;
+}
+
+#bkg-0 {
+	//background-image: url("../../Assets/images/bkg_0.jpg");
+}
+
+#bkg-11 {
+	background-image: url("../../Assets/images/bkg_11.jpg");
 }

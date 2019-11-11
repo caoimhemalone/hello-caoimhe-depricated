@@ -4,8 +4,6 @@ import Quote from './quote';
 import Calendar from './date';
 import Weather from './weather';
 
-
-
 function Dash() {
   return (
     <div className="dash-wrapper">
@@ -22,5 +20,6 @@ function Dash() {
     </div>
   );
 }
+
 
 export default Dash;
